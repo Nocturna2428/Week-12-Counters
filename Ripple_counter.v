@@ -1,8 +1,8 @@
 module T_flip_flop(
-    input T,
-    input C,
-    output Q,
-    output Qnot
+     if (reset)
+    Q <= 0;
+  else
+    Q <= ~Q;
     );
     
      D_Flip_Flop dflip(
