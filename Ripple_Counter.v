@@ -1,4 +1,4 @@
-module T_flip_flop(
+module Ripple_Counter(
      if (reset)
     Q <= 0;
   else
